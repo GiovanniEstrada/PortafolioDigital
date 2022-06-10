@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Avenir', Helvetica, sans-serif;
+}
+
+.form__logo {
+    display: flex;
+    background-color: #ddd;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form__data {
+    
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: left;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.form__input {
+    margin: 20px;
+    margin-top: 5px;
+    width: 300px;
+    height: 25px;
+    border: 1px transparent;
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(222,0,102);
+    outline: none;
+    transition: all 1s;
+}
+
+.form__input:hover{
+    background-color:#ffddfe88;
+}
+
+.form__input:active {
+    background-color: #eee;
+    width: 320px;
+    height: 30px;
+}
+
+.form__btn {
+    margin: auto;
+    width: 250px;
+    margin-top: 5px;
+    background-color: #FFCB02;
+    border-color: #FFCB02;
+    border: 1px solid transparent;
+    height: 40px;
+    border-radius: 15px;
+    transition: all 1s;
+}
+
+.form__btn:hover {
+    background-color: #fff;
+}
+
+.welcome {
+    font-size: 25px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.form__lb{
+    margin: 0;
+    margin-left: 25px;   
+}
+
+.form__forget {
+    padding: 10px;
+    color:#000;
+    margin: auto;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 13px;
+    border-color: #ddd;
+    transition: all 1s;
+}
+
+.form__forget:hover {
+    font-size: 14px;
+    border-radius: 15px;
+    background-color: #00999833;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+  }
+  
